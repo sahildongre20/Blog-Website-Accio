@@ -416,36 +416,59 @@ footer img{
         height: 50vh;
     }
   }
-  @media screen and (max-width: 500px) {
-    .hero-container {
-        width: 95%;
-        display: ;
-    }
-    .hero-text {
-        width: 400px;
-        margin: 20px;
-        display: block;
-        margin-left: -50px;
-    }
-    .hero-text h1{
-        font-size: 20px;
-    }
-    .hero-text input{
-        font-size: 15px;
-        width: 50%;
-       
-    }
-    .search-btn{
-        font-size: 15px;
-    }
-    .hero-text li{
-        font-size: 15px;
-
-    }
+@media screen and (max-width:500px) {
     .hero-img img{
-        width: 200px;
+        width: 300px;
+        margin-left: 10%;
     }
     .hero-container{
-       
+        width: 95%;
+        height: 60vh;
+        display: static;
+        padding: 0 10px;
+        overflow: hidden;
+
+    }
+    .hero-container h1{
+        font-size: 20px;
+    }
+    .hero-container input{
+        font-size: 10px;
+        
+    }
+    .search-btn{
+        font-size: 10px;
+    }
+    .hero-text{
+        width: 90%;
+        margin: auto;
+        align-items: start;
+        justify-content: start;
+    }
+    .footer-text h3{
+        font-size: 20px;
+    }
+    .footer-text{
+        margin-left: -100px; ;
+    }
+    .footer-text h2{
+        font-size: 20px;
+    }
+    .footer-text .download-btn{
+        font-size: 15px;
+    }
+    
+}
+@media screen and (max-width:400px) {
+    .hero-img img{
+        width: 250px;
+    }
+    footer{
+        width: 90%;
+        padding: 0px;
+    }
+    .footer-text{
+        margin: 0px;
+        margin-left: 20% !important; 
     }
 }
